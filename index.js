@@ -1,13 +1,14 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 4000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.get('/joko',(req,res) => {
-    res.send("rahul sharma");
+app.get('/rand',(req,res) => {
+    res.send("<h1> jhata rahul sharma digital marketing expert  </h1>");
 })
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })

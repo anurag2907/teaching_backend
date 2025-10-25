@@ -4,7 +4,7 @@ const app = express()
 const port = 4000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('jhata rahul sharma digital marketing expert  </h1>')
 })
 app.get('/rand',(req,res) => {
     res.send("<h1> jhata rahul sharma digital marketing expert  </h1>");
